@@ -1,0 +1,28 @@
+{
+  "name": "iojs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unscodst/iojs.git"
+  },
+  "author": "Matthew Allen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unscodst/iojs/issues"
+  },
+  "homepage": "https://github.com/unscodst/iojs#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "lowdb": "^0.10.2",
+    "uuid": "^2.0.1",
+    "validate": "^2.1.6"
+  }
+}
